@@ -32,14 +32,10 @@ RUN  mkdir -p /app/src \
     && cd /app/src \
     && tar -x -z --strip-components 1 -f ../src.tar.gz \
     && autoscan \
-    && aclocal \
-    && autoheader \
-    && libtoolize \
-    && automake --add-missing  \
-    && autoconf \
+    && autoreconf -i -f \
     && CXXFLAGS='-O2' CFLAGS='-O2' ./configure --prefix=/app --enable-lz4 \
     && make dist \
-    && make -j $(nproc) \
+    && make -j 2 \
     && make install clean \
     && mkdir -p /db/diffs /app/etc \
     && cp -r /app/src/rules /app/etc/rules \
