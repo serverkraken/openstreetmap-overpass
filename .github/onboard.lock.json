@@ -2,14 +2,14 @@
   "catalog_version": "v4",
   "defaults_applied_at": "2026-07-27T04:09:33Z",
   "files": {
-    ".github/workflows/ci.yml": "sha256:ba04e700b7ecf356c6729884d199282d969f2aa0f2ad8e12d0d792cd4c20f029",
-    ".github/workflows/cleanup.yml": "sha256:79e8cb798eb7081d80305a14b0c78a9c0ae7bfe8090e3b07ca0ae32ef5815c78",
-    ".github/workflows/prerelease.yml": "sha256:1818ade44c3a33bc93a6a42c199a22c4e8ce28dc11bd79eb7496e0d1067d1b74",
-    ".github/workflows/release.yml": "sha256:3bfb51da1bdca626614070abf49d3812aa2dbe0aa525e56f67ba7306d69adcaf",
+    ".github/workflows/ci.yml": "sha256:921eb1a43cbdb789e011b06abea113a342a5fe04bf9c0342c9a4bce327f87ea1",
+    ".github/workflows/cleanup.yml": "sha256:82a91a6f4872adefa86254596d3c85042611f39afb71d32f6bbd09191655b6e8",
+    ".github/workflows/prerelease.yml": "sha256:317700c96882f2ede3868db10d142b2b6f9bce32dae36db20860e7971a3a62ed",
+    ".github/workflows/release.yml": "sha256:7ae0e2ac1c4978ab71f441b113fc14f9f061e54cc6e9766d2321781f6551b02e",
     ".release-please-manifest.json": "sha256:b9c66e0126774ab9fa34536f15972438356e7035724a2c0f0ca3b125967e6399",
     "release-please-config.json": "sha256:cdfc621da533054b97735fbb2d96ec6326dbf449eec267af3119f0c58ba2c25d"
   },
-  "rendered_against": "v4.10.1",
-  "rendered_at": "2026-07-27T04:09:32Z",
+  "rendered_against": "v4.26.0",
+  "rendered_at": "2026-08-31T14:57:49Z",
   "schema_version": 2
 }
