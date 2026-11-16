@@ -13,3 +13,17 @@ jobs:
       severity: ${{ vars.SK_TRIVY_SEVERITY || 'HIGH,CRITICAL' }}
       trivy_version: ${{ vars.SK_TRIVY_VERSION || '' }}
     secrets: inherit
+
+
+  shellcheck:
+    uses: serverkraken/reusable-workflows/.github/workflows/lint-shell.yml@v4
+    permissions:
+      contents: read
+      security-events: write
+      actions: read
+    with:
+      paths: |-
+        *.sh
+        bin/**/*.sh
+      shellcheck_version: ${{ vars.SK_SHELLCHECK_VERSION || '' }}
+    secrets: inherit
